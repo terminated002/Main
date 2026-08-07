@@ -1,3 +1,7 @@
+/* ============================================================
+   STYLE.CSS — GOLD BAROQUE THEME (LARGER VERSION)
+   ============================================================ */
+
 :root {
     --ink: #efe3c2;
     --ink-dim: #c9b98c;
@@ -31,10 +35,8 @@ body {
     align-items: center;
     min-height: 100vh;
     padding: 40px 20px;
-    background:
-        radial-gradient(ellipse 1100px 600px at 50% -10%, rgba(217, 178, 91, 0.10), transparent 60%),
-        radial-gradient(ellipse 800px 700px at 90% 100%, rgba(58, 15, 16, 0.35), transparent 60%),
-        linear-gradient(180deg, var(--void-2), var(--void) 40%);
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 body::before {
